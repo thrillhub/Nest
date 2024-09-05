@@ -1,0 +1,26 @@
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-title {
+    color: #00a651;
+    font-weight: bold;
+}
+
+.contact-title-main {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.contact-item-title {
+    font-weight: bold;
+}
+
+.contact-item {
+    padding: 15px 0;
+}
+
+.contact-item-title {
+    color: #00a651;
+}

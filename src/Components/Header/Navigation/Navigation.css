@@ -1,0 +1,195 @@
+.nav {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav .catTab {
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+
+.nav nav ul li {
+    position: relative;
+}
+
+.nav nav ul li button {
+    text-transform: capitalize !important;
+    padding: 10px 5px !important;
+    color: #3bb77e;
+}
+
+.nav nav ul li button a {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.nav .part3 .phNo svg {
+    font-size: 40px !important;
+    opacity: 0.8 !important;
+}
+
+.nav .part3 .phNo h3 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+
+.nav .part3 .phNo p {
+    font-size: 12px !important;
+    opacity: 0.8 !important;
+}
+
+.nav nav .dropdown_menu {
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 3px 6px rgba(0 0 0 / 20%);
+    padding: 10px 0px;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav .dropdown_menu li {
+    width: 100%;
+    list-style: none;
+    margin: 0px !important;
+}
+
+.nav nav .dropdown_menu li button {
+    width: 100% !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    color: #3bb77e !important;
+    text-transform: capitalize !important;
+    font-size: 12px !important;
+    padding: 5px 8px !important;
+}
+
+.nav nav .dropdown_menu li button a {
+    font-weight: 400;
+}
+
+.nav .dropdown_menu li button:hover {
+    background: #f1f1f1 !important;
+}
+
+.nav nav li:hover .dropdown_menu {
+    top: 100%;
+    opacity: 1;
+    visibility: inherit;
+}
+
+.megaMenu {
+    height: auto !important;
+    padding: 40px 45px !important;
+}
+
+.megaMenu .col ul li {
+    margin-bottom: 10px !important;
+    display: block !important;
+}
+
+.megaMenu .col ul li a {
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.menuicon {
+    top: -100px;
+}
+
+.menuicon .catTab {
+    color: #000;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 40px !important;
+}
+
+.sidebar ul li a {
+    text-decoration: none !important;
+    color: #000;
+    display: block;
+    text-align: start;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.close-btn {
+    background-color: #d4d4d4;
+    border: none;
+    font-size: 20px;
+}
+
+.logo {
+    max-width: 110px;
+}
+
+.sidebar-contact {
+    margin-top: 25px;
+    font-size: 14px;
+    gap: 12px;
+    color: #3bb77e;
+}
+
+.sidebar-social {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sidebar-social ul li a {
+    list-style: none;
+    color: #3bb77e;
+}
+
+.sidebar-social ul li a:hover {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        height: auto !important;
+    }
+    .nav .part1 {
+        display: none !important;
+    }
+    .nav .part2 {
+        display: none !important;
+    }
+    .nav .part3 {
+        display: none !important;
+    }
+    .nav .part3 .phNo {
+        display: none;
+    }
+}
